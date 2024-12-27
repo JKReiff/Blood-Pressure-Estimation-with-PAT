@@ -5,6 +5,7 @@
 This project aims to estimate blood pressure (BP) using Pulse Arrival Time (PAT) measurements [Finnegan et al., 2021]. The system utilizes PPG (Photoplethysmography) and ECG (Electrocardiogram) signals to calculate PAT and estimate blood pressure values through machine learning models [Chan et al., 2019].  The project follows a structured data analysis process that includes data selection, cleaning, transformation, analysis, visualization, and model building.
 
 This project follows the data analysis process outlined in Figure 1:
+
 ![data-science](https://github.com/user-attachments/assets/14eda48d-c648-4bb1-875e-4d5bc279d540)
 
 
@@ -148,7 +149,7 @@ Two approaches are used to represent the model's deviation from actual BP values
 
     The mean should be close to zero. The Bland-Altman Plots below show these metrics: **ME: SBP: 0.06 ± 8.1 DBP: 0.58 ± 6.5**. These figures also show that the neural network does not accurately predict very high SBP and very low DBP, due to the limited number of training samples in these ranges [Finnegan et al., 2021].
 
-The results of this project align well with existing literature [Chan et al., 2019]:
+The results of this project align well with existing literature [Chan et al., 2019],[Wang et al., 2021]:
 ![lit](https://github.com/user-attachments/assets/f63a15d6-6255-4485-ae29-6f3b53d51fbc)
 
 
