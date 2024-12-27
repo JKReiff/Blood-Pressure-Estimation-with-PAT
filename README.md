@@ -60,6 +60,11 @@ The first step after dataset selection is data cleaning (Figure 1). This involve
 
 The extracted features represent characteristic traits of the PPG and ECG signals: maximum, minimum, and steepest slope (first derivative) of the PPG signal, and the R-peak of the ECG signal (Figure 2).[Kortekaas et al., 2012]
 
+PAT is the time it takes for the pulse wave to travel from the heart (ECG R-peak) to the fingertip (PPG sensor). As PAT and heart rate correlate with BP, the following intervals are calculated [Finnegan et al., 2021]:
+
+![Graphical-representation-of-the-calculation-of-the-pulse-arrival-time-PAT-Solid-line_W640](https://github.com/user-attachments/assets/c8e18fc7-a2fb-4bcc-ab21-9f09253dcb44)
+
+
 **PPG Signal Features:**
 - Maximum peak
 - Minimum valley
@@ -68,9 +73,10 @@ The extracted features represent characteristic traits of the PPG and ECG signal
 **ECG Signal Features:**
 - R-peak detection
   
-PAT is the time it takes for the pulse wave to travel from the heart (ECG R-peak) to the fingertip (PPG sensor). As PAT and heart rate correlate with BP, the following intervals are calculated [Finnegan et al., 2021]:
 
-![Graphical-representation-of-the-calculation-of-the-pulse-arrival-time-PAT-Solid-line_W640](https://github.com/user-attachments/assets/c8e18fc7-a2fb-4bcc-ab21-9f09253dcb44)
+![output (1)](https://github.com/user-attachments/assets/4dfd5f1f-9f01-4c14-9633-47f9927ebdab)
+
+
 
 
 **Extracted Features:**
