@@ -88,9 +88,9 @@ PAT is the time it takes for the pulse wave to travel from the heart (ECG R-peak
 
 For each measurement, a 10-second sequence of PPG and ECG data was used. The above-mentioned time intervals were calculated, averaged, and stored in a feature list (Figure 3). The list contains 88 measurements with three PAT intervals, heart rate, and patient data (age, height, weight, activity).
 
+![Datenbereinigung2](https://github.com/user-attachments/assets/829aac1e-1aec-4d41-975a-c828bb505442)
 
-![Datenbereinigung](https://github.com/user-attachments/assets/4ca56456-ff66-4c36-99c9-2c6540193aec)
-
+ 
 ## Model Building
 
 The feature list is used to build the models: a Multiple Linear Regression model and a Neural Network. The independent variables are PTTp, PTTs, PTTv, HR, activity, gender, height, weight, and age. The dependent variables are SBP and DBP.
