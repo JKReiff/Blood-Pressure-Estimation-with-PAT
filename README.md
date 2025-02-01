@@ -1,8 +1,8 @@
 
-# Blood Pressure Estimation using Pulse Arrival Time (PAT)
+# Blood Pressure Estimation using Pulse Arrival Time (PAT) -  NN vs. MLR
 
 ## Overview
-This project aims to estimate blood pressure (BP) using Pulse Arrival Time (PAT) measurements [Finnegan et al., 2021]. The system utilizes PPG (Photoplethysmography) and ECG (Electrocardiogram) signals to calculate PAT and estimate blood pressure values through machine learning models [Chan et al., 2019].  The project follows a structured data analysis process that includes data selection, cleaning, transformation, analysis, visualization, and model building.
+This project aims to estimate blood pressure (BP) using Pulse Arrival Time (PAT) measurements [Finnegan et al., 2021]. The system utilizes PPG (Photoplethysmography) and ECG (Electrocardiogram) signals to calculate PAT and estimate blood pressure values through machine learning models [Chan et al., 2019]. It evaluates and compares the performance of a multiple linear regression model with that of a neural network. The project follows a structured data analysis process that includes data selection, cleaning, transformation, analysis, visualization, and model building.
 
 This project follows the data analysis process outlined in Figure 1:
 
